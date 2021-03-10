@@ -1,0 +1,53 @@
+h1{
+    color : rgb(145, 3, 3,0.95);
+    }
+    .Header
+    {
+        background-color: #e01c0e;
+        display : flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .Origami{
+        background-color: #0a1fdf;
+        display : flex;
+        justify-content: space-between;
+        padding: 60px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:link{
+        color : blue;
+    }
+
+    a:visited{
+        color:purple;
+    }
+    .Item p{
+        opacity: 0.18;
+    }
+    .Item ol{
+        opacity: 0.18;
+    }
+    .Item img{
+        opacity: 0.6;
+    }
+    .Item:hover img{
+        transform : scale(1.2);
+        opacity : 1;
+    }
+    .Item:hover{
+        color : black;
+    }
+
+    .Item:hover p{
+        opacity: 1;
+        transform : scale(1.2);
+    }
+    .Item:hover ol{
+        opacity: 1;
+        transform : scale(1.2);
+    }
